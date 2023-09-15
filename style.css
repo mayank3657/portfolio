@@ -235,3 +235,26 @@ section:nth-child(2n+1){
     text-align: center;
     padding-top: 20px;
 }
+/*responsive*/
+@media(min-width:300px) and (max-width:932px){
+    .educationclass{
+        margin: 50px 10px;
+    }
+    section{
+        height: 100vh;
+    }
+
+    #contactsdetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .username{
+        padding: 2px;
+    }
+    #aside2{
+        margin-left: 80px;
+    }
+    #aside2 span{
+        word-wrap: break-word;
+    }
+}
