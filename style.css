@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+}
+#body-header{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg");
+    opacity: 0.9;
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+}
+.horizontal-list{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.horizontal-list li a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+    transition: color 0.5s,text-decoration 1s;
+}
+#h2name{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-size: bold;
+}
+#h2name:hover{
+    color: lightgrey;
+    transition: color 1s;
+}
+.iconsize li{
+    margin-top: 40px;
+}
+.iconsize li a i{
+    padding: 10px;
+}
+.iconsize li a i:hover{
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 6px grey;
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#myimage{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+}
+#myimage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-top: -70px;
+}
+#paragraphs{
+    /* margin: -30px 100px; */
+    margin: -40px 30px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #a79d9d;
+}
+section{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightcyan;
+
+}
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+#skills{
+    background-image: url("https://img.freepik.com/free-photo/top-view-skills-written-note-with-pen-notepad-white-background-job-office-school-copybook-salary-college-business-color_179666-18277.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#skillscenter{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#skillscenter span:hover{
+    color: lightcoral;
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+#skillsrange{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skillsdiv{
+    width: 150px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#skillsrange div{
+    padding-top: 10px;
+}
+#skillsdiv1{
+    background-color: rgb(245, 203, 90);
+}
+#skillsdiv2{
+    background-color: lightcoral;
+}
+#skillsdiv3{
+    background-color: rgb(0, 255, 128);
+}
+#skillsdiv4{
+    background-color: aqua;
+}
+#skillsdiv5{
+    background-color: burlywood;
+}
+#skillsdiv6{
+    background-color: azure;
+}
+#skillsdiv7{
+    background-color: bisque;
+}
+#skillsdiv8{
+    background-color: cadetblue;
+}
+#educationcenter{
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#educationcenter:hover{
+    color: lightcoral;
+    text-decoration: underline;
+}
+#education{
+    background-image: url("https://watermark.lovepik.com/photo/50078/3999.jpg_wh1200.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+#educationdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.educationclass{
+    border: 2px solid brown;
+    border-radius: 25px;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    margin-left: 20px;
+    color: white;
+    padding: 20px;
+}
+.educationclass:hover{
+    color: #ec38a7;
+    background-color: lightgreen;
+}
+#contact{
+    background-image: url("https://pub-static.fotor.com/assets/bg/78f0d7f1-e8e5-4f87-9af7-17495858c8ec.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contactheader{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#contactheader:hover{
+    text-decoration: underline;
+    color: blue;
+    transition: color 0.5s;
+}
+#contactsdetails{
+    margin: 5px;
+}
+#aside1{
+    display: inline-block;
+    width: 40%;
+}
+#aside2{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}
+.username{
+    margin: 10px 10px 10px 100px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: lightgrey;
+    text-align: center;
+    box-shadow: 0px 0px 4px 4px grey;
+}
+#submitbutton:hover{
+    color: #ec38a7;
+    box-shadow: 0px 0px 4px 4px pink;
+}
+#footerid{
+    height: 50px;
+    width: auto;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
